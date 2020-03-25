@@ -6,7 +6,6 @@ import torch.nn as nn
 from torch.nn.modules.conv import _ConvNd
 
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
 
 multiply_adds = 1
 

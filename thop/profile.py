@@ -10,7 +10,7 @@ from distutils.version import LooseVersion
 from .count_hooks import *
 
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
+
 
 if LooseVersion(torch.__version__) < LooseVersion("1.0.0"):
     logger.warning(
